@@ -1,5 +1,15 @@
 .contacts {
   position: relative;
+  margin-top: 32px;
+  background-color: #F2F2F2;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 63px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 80px;
+  }
 }
 
 .contacts__wrapper {
@@ -7,16 +17,18 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
+  padding-top: 11px;
 
   @media (min-width: $tablet-width) {
-     padding: 60px 70px;
+     padding: 43px 0;
   }
 
   @media (min-width: $desktop-width) {
     position: absolute;
     background-color: #ffffff;
     top: 95px;
-    left: 110px;
+    left: 300px;
+    padding: 43px 76px;
   }
 }
 
@@ -29,6 +41,12 @@
   color: #111111;
   width: 140px;
   text-transform: uppercase;
+
+  @media (min-width:  $tablet-width) {
+    font-size: 20px;
+    line-height: 26px;
+    width: 170px;
+  }
 }
 
 .contacts__adress {
@@ -39,10 +57,29 @@
   text-align: left;
   color: #444444;
   width: 140px;
+  margin: 0;
+  margin-top: 15px;
 
   @media (min-width: $tablet-width) {
     margin-left: auto;
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+    width: 170px;
+    margin-bottom: 22px;
+    padding-left: 210px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 81px;
+    text-align: left;
+    margin-bottom: 21px;
+    margin-top: 2px;
+  }
+}
+
+.contacts__adress-container {
+  margin-top: 16px;
 }
 
 .contacts iframe {
@@ -50,4 +87,12 @@
   border: none;
   display: block;
   width: 100%;
+}
+
+.contacts__map {
+  min-height: 363px;
+
+  @media (min-width: $tablet-width) {
+    min-height: 400px;
+  }
 }

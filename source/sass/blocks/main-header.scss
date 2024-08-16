@@ -92,6 +92,8 @@
   color: #ffffff;
   text-align: center;
   margin-top: 25px;
+  margin-right: 3px;
+  text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -103,7 +105,7 @@
 }
 
 .main-header__image {
-  margin-top: 25px;
+  margin-top: 18px;
   position: relative;
   bottom: 150px;
 
@@ -125,7 +127,7 @@
 }
 
 .main-header__button {
-  margin-top: -150px;
+  margin-top: -153px;
 
   @media (min-width: $tablet-width) {
     position: absolute;

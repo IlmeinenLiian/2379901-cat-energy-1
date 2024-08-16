@@ -8,6 +8,11 @@
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    padding: 20px;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-top: 38px;
   }
 }
 
@@ -16,7 +21,7 @@
 }
 
 .main-footer__logo {
-  padding-top: 40px;
+  padding-top: 10px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -24,10 +29,19 @@
 }
 
 .main-footer__social {
-  width: 132px;
+  width: 128px;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 131px;
+    padding-top: 24px;
+  }
+
+  @media (min-width: $tablet-width) {
+    margin-right: 388px;
+  }
 }
 
 .main-footer__link {
@@ -37,12 +51,12 @@
 .main-footer__link::after {
   content: "";
   position: absolute;
-  width: 280px;
+  width: 100vw;
   height: 1px;
   background-color: #d9d9d9;
-  bottom: -20px;
-  right: -90%;
-  box-shadow: 0 85px 0 0 #d9d9d9;
+  bottom: -17px;
+  right: -290px;
+  box-shadow: 0 60px 0 0 #d9d9d9;
 
   @media (min-width: $tablet-width) {
     display: none;
