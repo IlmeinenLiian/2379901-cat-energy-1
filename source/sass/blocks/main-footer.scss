@@ -7,12 +7,10 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-right: 141px;
     align-items: center;
     padding: 20px;
-  }
-
-  @media (min-width: $tablet-width) {
-    padding-top: 38px;
+    padding-top: 32px;
   }
 }
 
@@ -39,7 +37,7 @@
     padding-top: 24px;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     margin-right: 388px;
   }
 }
